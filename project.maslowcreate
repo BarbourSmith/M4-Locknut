@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "number of sides",
-                            "ioValue": 8
+                            "ioValue": 6
                         },
                         {
                             "name": "diameter",
@@ -29,8 +29,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 200,
-                    "y": 205,
+                    "x": 150,
+                    "y": 199,
                     "uniqueID": 434786,
                     "ioValues": [
                         {
@@ -42,9 +42,22 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 331,
-                    "y": 76,
+                    "x": 340,
+                    "y": 84,
                     "uniqueID": 655993,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 356,
+                    "y": 159,
+                    "uniqueID": 724440,
                     "ioValues": [
                         {
                             "name": "height",
@@ -53,17 +66,12 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 355,
-                    "y": 156,
-                    "uniqueID": 724440,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 510,
+                    "y": 114,
+                    "uniqueID": 248341,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -85,10 +93,27 @@
                     "ap2Name": "geometry",
                     "ap1ID": 434786,
                     "ap2ID": 724440
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 655993,
+                    "ap2ID": 248341
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 724440,
+                    "ap2ID": 248341
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 248341
                 }
             ],
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": 0.2
 }
