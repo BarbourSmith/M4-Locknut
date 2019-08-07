@@ -12,8 +12,8 @@
                 {
                     "atomType": "RegularPolygon",
                     "name": "RegularPolygon",
-                    "x": 154,
-                    "y": 74,
+                    "x": 150,
+                    "y": 66,
                     "uniqueID": 733569,
                     "ioValues": [
                         {
@@ -22,7 +22,7 @@
                         },
                         {
                             "name": "diameter",
-                            "ioValue": 7
+                            "ioValue": 7.6
                         }
                     ]
                 },
@@ -42,8 +42,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 340,
-                    "y": 84,
+                    "x": 346,
+                    "y": 91,
                     "uniqueID": 655993,
                     "ioValues": [
                         {
