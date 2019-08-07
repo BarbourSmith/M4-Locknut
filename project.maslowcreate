@@ -12,9 +12,9 @@
                 {
                     "atomType": "RegularPolygon",
                     "name": "RegularPolygon",
-                    "x": 275,
-                    "y": 142,
-                    "uniqueID": 834063,
+                    "x": 206,
+                    "y": 98,
+                    "uniqueID": 733569,
                     "ioValues": [
                         {
                             "name": "number of sides",
