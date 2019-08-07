@@ -74,6 +74,21 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 820,
+                    "y": 143,
+                    "uniqueID": 445633,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -108,8 +123,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 248341,
+                    "ap2ID": 445633
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 248341
+                    "ap1ID": 445633
                 }
             ],
             "fileTypeVersion": 1
