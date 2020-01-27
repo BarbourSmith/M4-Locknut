@@ -7,6 +7,3 @@
 ## M4 Locknut
 
 
-undefined
-
-

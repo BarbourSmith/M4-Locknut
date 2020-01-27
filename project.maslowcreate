@@ -74,25 +74,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 812,
-                    "y": 114,
-                    "uniqueID": 445633,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "M4 Locknut",
-                        "numberNeeded": 1,
-                        "costUSD": 0.1164,
-                        "source": "https://www.mcmaster.com/94645a101",
-                        "totalNeeded": 0
-                    }
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -100,37 +85,36 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 733569,
                     "ap2ID": 655993
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 434786,
                     "ap2ID": 724440
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
+                    "ap2Primary": false,
                     "ap1ID": 655993,
                     "ap2ID": 248341
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
+                    "ap2Primary": false,
                     "ap1ID": 724440,
                     "ap2ID": 248341
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 248341,
-                    "ap2ID": 445633
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 445633
+                    "ap2Primary": false,
+                    "ap1ID": 248341
                 }
             ],
             "fileTypeVersion": 1
